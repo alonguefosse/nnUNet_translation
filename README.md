@@ -7,7 +7,7 @@ the self-configuring nnU-Net pipeline, with a regression output and translation 
 
 ```bash
 # use a dedicated environment: this package replaces the original nnunetv2
-git clone https://github.com/Phyrise/nnUNet_translation && cd nnUNet_translation
+git clone https://github.com/alonguefosse/nnUNet_translation && cd nnUNet_translation
 pip install -e .
 export nnUNet_raw=/data/nnUNet_raw nnUNet_preprocessed=/data/nnUNet_preprocessed nnUNet_results=/data/nnUNet_results
 ```
